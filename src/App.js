@@ -1,12 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import { Route, BrowserRouter, Routes } from 'react-router-dom';
+import React from "react";
 import VendingMachine from "./VendingMachine";
-import Nav from "./Nav";
+import { Route, BrowserRouter, Routes } from "react-router-dom";
+import Snack from "./Snack";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <BrowserRouter>
         <VendingMachine />
         <Routes>
