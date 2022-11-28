@@ -1,4 +1,4 @@
-import React from "react";
+
 import VendingMachine from "./VendingMachine";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
 import Snack from "./Snack";
